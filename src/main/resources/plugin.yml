@@ -1,0 +1,17 @@
+name: OfflineMessenger
+version: '${project.version}'
+main: io.github.passengers.OfflineMessenger
+commands:
+  demomsg:
+    usage: /<command>
+    permission: offlinemessenger.sendmessage
+    permission-message: Insufficient permissions!
+    description: Message a player currently online on the server!
+  demoreply:
+    usage: /<command>
+    permission: offlinemessenger.replymessage
+    permission-message: Insufficient permissions!
+    description: Reply to the message which you just received.
+
+
+
